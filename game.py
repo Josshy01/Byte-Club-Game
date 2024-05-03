@@ -13,7 +13,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 #background_color = (0, 0, 0)  # RGB value for black
 
 # Fill the screen with the background color
-screen.fill(background_color)
+#screen.fill(background_color)
 
 # Load the background image (Replace 'image_directory' with the actual directory of your image)
 #background_image = pygame.image.load("image_directory").convert()
@@ -22,7 +22,7 @@ screen.fill(background_color)
 #background_image = pygame.transform.scale(background_image, (screen_width, screen_height))
 
 # Blit (draw) the background image onto the screen surface
-screen.blit(background_image, (0, 0))
+#screen.blit(background_image, (0, 0))
 
 # Update the display to show the background image
 pygame.display.update()
